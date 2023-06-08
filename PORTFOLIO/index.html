@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/483790aba7.js" crossorigin="anonymous"></script>
+    <title>Ramjee- The Web Developer</title>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <p class="logo">My<span>Portfolio</span></p>
+                <!-- <img src="logo1.jpg" class="logo"> -->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Ramjee</span> <br> Rai From India.</h1>
+            </div>
+        </div>
+    </div>
+
+                                           <!-- --------ABOUT-------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-cal-1">
+                    <img src="myimg3.jpg" >
+                </div>
+                <div class="about-cal-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>My name is Ramjee Rai and I am a student at MCKV Institute of Engineering.I will graduate in the fall of 2024 with the degree in Computer Science Engineering.I grew up in Salkia.I have two wonderful and loving parents that have supported me in all my endeavours that have been such incredible role models as i have grown up.I have a passion of travel,cricket and serving others is something I work hard to fit in my schedule.
+                        <br><br>
+                        After completing High school in 2020 I started my college journey from MCKV Institute of Engineering opting for Computer Science.I opted for Computer Science because Computer Science engineering is a practical discipline with a plethora of great career opportunities. Computer Science engineers can work in research and development industries, engineering services firms, manufacturing, government, and tech. Relevant industries include automotive manufacturing, aerospace, defense, consumer electronics, commercial construction, computing, and telecommunications.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tablinks active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tablinks" onclick="opentab('experience')">Experience</p>
+                        <p class="tablinks" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Developement</span><br>Frontend Developer</li>
+                            <li><span>Coder</span><br>Java/C</li>
+                            <li><span>Artist</span><br>Sketcher</li>
+                            <li><span>Sports Person</span><br>Cricket/Basketball</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Oasis Infobyte</span><br>One Month Intern as a Web Developer and Designer.</li>
+                            <li><span>LGM</span><br>One Month Intern as a Web Developer</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Btech</span><br>Pursuing Btech from MCKV INSTITUTE OF ENGINEERING preently in 3 rd Year with YGPA of 9.7+.</li>
+                            <li><span>12th</span><br>RATNAKAR NORTH POINT SCHOOL in YEAR 2020 with 95.0%.</li>
+                            <li><span>10th</span><br>RATNAKAR NORTH POINT SCHOOL in YEAR 2018 with 88.4%.</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                          <!-- ----------------- SERVICES ---------------- -->
+    
+
+    <div id="services">
+
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Web Developement and Designing has been the most attaractive thing as a developer for me.You Can visit some of my Web pages.</p>
+                    <a href="https://github.com/rairamjee">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-angles-right"></i>
+                    <h2>Problem Solving</h2>
+                    <p>Problem Solving has one of the most loved jobs.Here are some of the codes.</p>
+                    <a href="https://github.com/rairamjee">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-pen"></i>
+                    <h2>Sketcking</h2>
+                    <p>Skecth has been the best way to reflect my way of thinking and loving the nature</p>
+                    <a href="#https://www.instagram.com/_ramjee_rai_/">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+                      <!-- --------------------------PORTFOLIO------------------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png">
+                    <div class="layer">
+                        <h3>Oasis Infobyte Projects</h3>
+                        <p>You Can visit on all my project hich I made during Oasis Infobyte Internship.You can check other projects by clicking on See More Option.</p>
+                        <a href="https://github.com/rairamjee/oasis-infobyte"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="work-2.png">
+                    <div class="layer">
+                        <h3>Lets Grow More Projects</h3>
+                        <p>You Can visit on all my project hich I made during Lets Grow More Internship.You can check other projects by clicking on See More Option.</p>
+                        <a href="https://github.com/rairamjee/lets-grow-more/tree/main/TO%20DOs%20LIST"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="work-3.png">
+                    <div class="layer">
+                        <h3>Blogs</h3>
+                        <p>If You Like Cricket here are some of my blogs.You can read them by clicking on Learn More Option.</p>
+                        <a href="https://cricupdatewith-ram.blogspot.com/"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/rairamjee" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- ------------------------Contact--------------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i> rairamjee2@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 8777281405</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/ramjee.rai.733"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/_ramjee_rai_/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/ramjee-rai-a3a49a244"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Ramjee Rai_CSE_2024.pdf"  download class="btn btn2">Download CV</a>
+                </div>
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Ramjee <i class="fa-solid fa-user"></i> all rights reserved</p>
+        </div>
+    </div>
+
+    <script>
+
+        var tab_links = document.getElementsByClassName("tablinks");
+        var tab_contents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname)
+        {
+            for(tablink of tab_links)
+            {
+                tablink.classList.remove("active-link");
+            }
+
+            for(tabcontent of tab_contents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+    </script>
+
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw8FrlPGR725HJdTbwNrkBURKq9Rq0I2uMfrGnMtBBbC9ZgAxT--SWDkviyCZ7YdXxBdg/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML ="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML =""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
